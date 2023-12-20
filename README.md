@@ -1,1 +1,1 @@
-# fizzbuzz-maven
+# maven-examples
