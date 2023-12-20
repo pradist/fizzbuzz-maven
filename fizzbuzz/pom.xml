@@ -43,7 +43,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.1.0</version>
 				<configuration>
-					<mainClass>com.example.fizzbuzz.FizzbuzzApplication</mainClass>
+					<mainClass>com.example.fizzbuzz.App</mainClass>
 				</configuration>
 			</plugin>
 
@@ -83,9 +83,7 @@
 					<consoleOutputReporter>
 						<disable>true</disable>
 					</consoleOutputReporter>
-					<statelessTestsetInfoReporter
-							implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5StatelessTestsetInfoTreeReporter">
-					</statelessTestsetInfoReporter>
+					<statelessTestsetInfoReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5StatelessTestsetInfoTreeReporter"/>
 				</configuration>
 			</plugin>
 		</plugins>

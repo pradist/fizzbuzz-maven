@@ -13,4 +13,13 @@ public class FizzBuzzTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void fizzbuzz_whenInputIs2_shouldReturn2() {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+        String expected = "2";
+        String actual = fizzbuzz.Generate(2);
+
+        assertEquals(expected, actual);
+    }
 }
