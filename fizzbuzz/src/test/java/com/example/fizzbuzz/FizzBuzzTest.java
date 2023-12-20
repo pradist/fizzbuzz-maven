@@ -22,4 +22,13 @@ public class FizzBuzzTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void fizzbuzz_whenInputIs4_shouldReturn4() {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+        String expected = "4";
+        String actual = fizzbuzz.Generate(4);
+
+        assertEquals(expected, actual);
+    }
 }
