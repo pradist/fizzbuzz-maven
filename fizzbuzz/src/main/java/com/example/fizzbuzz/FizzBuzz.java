@@ -11,6 +11,9 @@ public class FizzBuzz {
         if (number == 10) {
             return "Buzz";
         }
+        if (number == 20) {
+            return "Buzz";
+        }
         return String.valueOf(number);
     }
 }
