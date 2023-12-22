@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
     @Test
-    public void fizzbuzz_whenInputIs1_shouldReturn1() {
+    public void whenInputIs1_shouldReturn1() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "1";
         String actual = fizzbuzz.Generate(1);
@@ -15,7 +15,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizzbuzz_whenInputIs2_shouldReturn2() {
+    public void whenInputIs2_shouldReturn2() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "2";
         String actual = fizzbuzz.Generate(2);
@@ -24,7 +24,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizzbuzz_whenInputIs4_shouldReturn4() {
+    public void whenInputIs4_shouldReturn4() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "4";
         String actual = fizzbuzz.Generate(4);
@@ -33,7 +33,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizzbuzz_whenInputIs3_shouldReturnFizz() {
+    public void whenInputIs3_shouldReturnFizz() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "Fizz";
         String actual = fizzbuzz.Generate(3);
@@ -42,7 +42,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizzbuzz_whenInputIs6_shouldReturnFizz() {
+    public void whenInputIs6_shouldReturnFizz() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "Fizz";
         String actual = fizzbuzz.Generate(6);
@@ -51,7 +51,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizzbuzz_whenInputIs9_shouldReturnFizz() {
+    public void whenInputIs9_shouldReturnFizz() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "Fizz";
         String actual = fizzbuzz.Generate(9);
@@ -60,7 +60,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizzbuzz_whenInputIs5_shouldReturnBuzz() {
+    public void whenInputIs5_shouldReturnBuzz() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "Buzz";
         String actual = fizzbuzz.Generate(5);
@@ -69,7 +69,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizzbuzz_whenInputIs10_shouldReturnBuzz() {
+    public void whenInputIs10_shouldReturnBuzz() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "Buzz";
         String actual = fizzbuzz.Generate(10);
@@ -78,7 +78,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizzbuzz_whenInputIs20_shouldReturnBuzz() {
+    public void whenInputIs20_shouldReturnBuzz() {
         FizzBuzz fizzbuzz = new FizzBuzz();
         String expected = "Buzz";
         String actual = fizzbuzz.Generate(20);
