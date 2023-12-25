@@ -85,4 +85,13 @@ public class FizzBuzzTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void whenInputIs15_shouldReturnFizzBuzz() {
+        FizzBuzz fizzbuzz = new FizzBuzz();
+        String expected = "FizzBuzz";
+        String actual = fizzbuzz.Generate(15);
+
+        assertEquals(expected, actual);
+    }
 }
