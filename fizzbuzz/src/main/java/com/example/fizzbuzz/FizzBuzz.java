@@ -5,10 +5,10 @@ public class FizzBuzz {
     if (number % 15 == 0) {
       return "FizzBuzz";
     }
-    if (number == 30) {
+    if (number % 15 == 0) {
       return "FizzBuzz";
     }
-    if (number == 45) {
+    if (number % 15 == 0) {
       return "FizzBuzz";
     }
     if (number % 3 == 0) {
